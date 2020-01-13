@@ -3,6 +3,10 @@
   <types>
     <name>CustomObject</name>
     <members>Account</members>
+    <members>AccountContactRole</members>
+    <members>Activity</members>
+    <members>Asset</members>
+    <members>AssetRelationship</members>
     <members>Contact</members>
     <members>Lead</members>
   </types>
@@ -30,6 +34,37 @@
     <members>Account.TickerSymbol</members>
     <members>Account.Type</members>
     <members>Account.Website</members>
+    <members>AccountContactRole.Role</members>
+    <members>Asset.AccountId</members>
+    <members>Asset.AssetLevel</members>
+    <members>Asset.AssetProvidedById</members>
+    <members>Asset.AssetServicedById</members>
+    <members>Asset.ContactId</members>
+    <members>Asset.Description</members>
+    <members>Asset.InstallDate</members>
+    <members>Asset.IsCompetitorProduct</members>
+    <members>Asset.IsInternal</members>
+    <members>Asset.LocationId</members>
+    <members>Asset.Name</members>
+    <members>Asset.OwnerId</members>
+    <members>Asset.ParentId</members>
+    <members>Asset.Price</members>
+    <members>Asset.Product2Id</members>
+    <members>Asset.ProductCode</members>
+    <members>Asset.ProductDescription</members>
+    <members>Asset.ProductFamily</members>
+    <members>Asset.PurchaseDate</members>
+    <members>Asset.Quantity</members>
+    <members>Asset.RootAssetId</members>
+    <members>Asset.SerialNumber</members>
+    <members>Asset.Status</members>
+    <members>Asset.StockKeepingUnit</members>
+    <members>Asset.UsageEndDate</members>
+    <members>AssetRelationship.AssetId</members>
+    <members>AssetRelationship.FromDate</members>
+    <members>AssetRelationship.RelatedAssetId</members>
+    <members>AssetRelationship.RelationshipType</members>
+    <members>AssetRelationship.ToDate</members>
     <members>Contact.AccountId</members>
     <members>Contact.AssistantName</members>
     <members>Contact.AssistantPhone</members>
@@ -86,6 +121,12 @@
     <members>Account.AllAccounts</members>
     <members>Account.MyAccounts</members>
     <members>Account.NewThisWeek</members>
+    <members>Activity.MyActivities</members>
+    <members>Activity.MyDelegatedActivities</members>
+    <members>Activity.MyTeamsActivities</members>
+    <members>Activity.TodaysTasks</members>
+    <members>Activity.UpcomingEvents</members>
+    <members>Asset.AllAssets</members>
     <members>Contact.AllContacts</members>
     <members>Contact.BirthdaysThisMonth</members>
     <members>Contact.NewThisWeek</members>
