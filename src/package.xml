@@ -404,5 +404,9 @@
     <members>Lead.SendGmail</members>
     <members>Lead.YahooMaps</members>
   </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+  </types>
   <version>47.0</version>
 </Package>
