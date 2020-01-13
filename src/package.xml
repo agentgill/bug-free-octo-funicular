@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <name>Layout</name>
+    <members>Account-Account Layout</members>
+    <members>Asset-Asset Layout</members>
+    <members>Campaign-Campaign Layout</members>
+    <members>CampaignMember-Campaign Member Page Layout</members>
+    <members>Case-Case Layout</members>
+    <members>Contact-Contact Layout</members>
+    <members>Contract-Contract Layout</members>
+    <members>EmailMessage-Email Message Layout</members>
+    <members>Event-Event Layout</members>
+    <members>Lead-Lead Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>OpportunityLineItem-Opportunity Product Layout</members>
+    <members>Pricebook2-Price Book Layout</members>
+    <members>PricebookEntry-Price Book Entry</members>
+    <members>Product2-Product Layout</members>
+    <members>Task-Task Layout</members>
+    <members>User-User Layout</members>
+  </types>
+  <types>
     <name>CustomObject</name>
     <members>Account</members>
     <members>AccountContactRole</members>
     <members>Activity</members>
     <members>Asset</members>
     <members>AssetRelationship</members>
+    <members>Campaign</members>
+    <members>CampaignMember</members>
+    <members>Case</members>
+    <members>CaseContactRole</members>
     <members>Contact</members>
+    <members>Contract</members>
     <members>Lead</members>
+    <members>Opportunity</members>
+    <members>OpportunityCompetitor</members>
+    <members>OpportunityContactRole</members>
+    <members>OpportunityLineItem</members>
+    <members>Pricebook2</members>
+    <members>PricebookEntry</members>
+    <members>Product2</members>
+    <members>Task</members>
+    <members>User</members>
   </types>
   <types>
     <name>CustomField</name>
@@ -65,6 +99,93 @@
     <members>AssetRelationship.RelatedAssetId</members>
     <members>AssetRelationship.RelationshipType</members>
     <members>AssetRelationship.ToDate</members>
+    <members>Campaign.ActualCost</members>
+    <members>Campaign.AmountAllOpportunities</members>
+    <members>Campaign.AmountWonOpportunities</members>
+    <members>Campaign.BudgetedCost</members>
+    <members>Campaign.CampaignMemberRecordTypeId</members>
+    <members>Campaign.Description</members>
+    <members>Campaign.EndDate</members>
+    <members>Campaign.ExpectedResponse</members>
+    <members>Campaign.ExpectedRevenue</members>
+    <members>Campaign.HierarchyActualCost</members>
+    <members>Campaign.HierarchyAmountAllOpportunities</members>
+    <members>Campaign.HierarchyAmountWonOpportunities</members>
+    <members>Campaign.HierarchyBudgetedCost</members>
+    <members>Campaign.HierarchyExpectedRevenue</members>
+    <members>Campaign.HierarchyNumberOfContacts</members>
+    <members>Campaign.HierarchyNumberOfConvertedLeads</members>
+    <members>Campaign.HierarchyNumberOfLeads</members>
+    <members>Campaign.HierarchyNumberOfOpportunities</members>
+    <members>Campaign.HierarchyNumberOfResponses</members>
+    <members>Campaign.HierarchyNumberOfWonOpportunities</members>
+    <members>Campaign.HierarchyNumberSent</members>
+    <members>Campaign.IsActive</members>
+    <members>Campaign.Name</members>
+    <members>Campaign.NumberOfContacts</members>
+    <members>Campaign.NumberOfConvertedLeads</members>
+    <members>Campaign.NumberOfLeads</members>
+    <members>Campaign.NumberOfOpportunities</members>
+    <members>Campaign.NumberOfResponses</members>
+    <members>Campaign.NumberOfWonOpportunities</members>
+    <members>Campaign.NumberSent</members>
+    <members>Campaign.OwnerId</members>
+    <members>Campaign.ParentId</members>
+    <members>Campaign.StartDate</members>
+    <members>Campaign.Status</members>
+    <members>Campaign.Type</members>
+    <members>CampaignMember.CampaignId</members>
+    <members>CampaignMember.City</members>
+    <members>CampaignMember.CompanyOrAccount</members>
+    <members>CampaignMember.ContactId</members>
+    <members>CampaignMember.Country</members>
+    <members>CampaignMember.Description</members>
+    <members>CampaignMember.DoNotCall</members>
+    <members>CampaignMember.Email</members>
+    <members>CampaignMember.Fax</members>
+    <members>CampaignMember.FirstName</members>
+    <members>CampaignMember.FirstRespondedDate</members>
+    <members>CampaignMember.HasOptedOutOfEmail</members>
+    <members>CampaignMember.HasOptedOutOfFax</members>
+    <members>CampaignMember.HasResponded</members>
+    <members>CampaignMember.LastName</members>
+    <members>CampaignMember.LeadId</members>
+    <members>CampaignMember.LeadSource</members>
+    <members>CampaignMember.MobilePhone</members>
+    <members>CampaignMember.Phone</members>
+    <members>CampaignMember.PostalCode</members>
+    <members>CampaignMember.Salutation</members>
+    <members>CampaignMember.State</members>
+    <members>CampaignMember.Status</members>
+    <members>CampaignMember.Street</members>
+    <members>CampaignMember.Title</members>
+    <members>Case.AccountId</members>
+    <members>Case.AssetId</members>
+    <members>Case.BusinessHoursId</members>
+    <members>Case.ClosedDate</members>
+    <members>Case.Comments</members>
+    <members>Case.ContactEmail</members>
+    <members>Case.ContactFax</members>
+    <members>Case.ContactId</members>
+    <members>Case.ContactMobile</members>
+    <members>Case.ContactPhone</members>
+    <members>Case.Description</members>
+    <members>Case.IsClosedOnCreate</members>
+    <members>Case.IsEscalated</members>
+    <members>Case.Origin</members>
+    <members>Case.OwnerId</members>
+    <members>Case.ParentId</members>
+    <members>Case.Priority</members>
+    <members>Case.Reason</members>
+    <members>Case.SourceId</members>
+    <members>Case.Status</members>
+    <members>Case.Subject</members>
+    <members>Case.SuppliedCompany</members>
+    <members>Case.SuppliedEmail</members>
+    <members>Case.SuppliedName</members>
+    <members>Case.SuppliedPhone</members>
+    <members>Case.Type</members>
+    <members>CaseContactRole.Role</members>
     <members>Contact.AccountId</members>
     <members>Contact.AssistantName</members>
     <members>Contact.AssistantPhone</members>
@@ -91,6 +212,26 @@
     <members>Contact.Phone</members>
     <members>Contact.ReportsToId</members>
     <members>Contact.Title</members>
+    <members>Contract.AccountId</members>
+    <members>Contract.ActivatedById</members>
+    <members>Contract.ActivatedDate</members>
+    <members>Contract.BillingAddress</members>
+    <members>Contract.CompanySignedDate</members>
+    <members>Contract.CompanySignedId</members>
+    <members>Contract.ContractTerm</members>
+    <members>Contract.CustomerSignedDate</members>
+    <members>Contract.CustomerSignedId</members>
+    <members>Contract.CustomerSignedTitle</members>
+    <members>Contract.Description</members>
+    <members>Contract.EndDate</members>
+    <members>Contract.Name</members>
+    <members>Contract.OwnerExpirationNotice</members>
+    <members>Contract.OwnerId</members>
+    <members>Contract.Pricebook2Id</members>
+    <members>Contract.ShippingAddress</members>
+    <members>Contract.SpecialTerms</members>
+    <members>Contract.StartDate</members>
+    <members>Contract.Status</members>
     <members>Lead.Address</members>
     <members>Lead.AnnualRevenue</members>
     <members>Lead.CampaignId</members>
@@ -115,6 +256,82 @@
     <members>Lead.Status</members>
     <members>Lead.Title</members>
     <members>Lead.Website</members>
+    <members>Opportunity.AccountId</members>
+    <members>Opportunity.Amount</members>
+    <members>Opportunity.CampaignId</members>
+    <members>Opportunity.CloseDate</members>
+    <members>Opportunity.ContractId</members>
+    <members>Opportunity.Description</members>
+    <members>Opportunity.ExpectedRevenue</members>
+    <members>Opportunity.IqScore</members>
+    <members>Opportunity.IsPrivate</members>
+    <members>Opportunity.LeadSource</members>
+    <members>Opportunity.Name</members>
+    <members>Opportunity.NextStep</members>
+    <members>Opportunity.OwnerId</members>
+    <members>Opportunity.Pricebook2Id</members>
+    <members>Opportunity.Probability</members>
+    <members>Opportunity.StageName</members>
+    <members>Opportunity.TotalOpportunityQuantity</members>
+    <members>Opportunity.Type</members>
+    <members>OpportunityCompetitor.CompetitorName</members>
+    <members>OpportunityContactRole.ContactId</members>
+    <members>OpportunityContactRole.IsPrimary</members>
+    <members>OpportunityContactRole.OpportunityId</members>
+    <members>OpportunityContactRole.Role</members>
+    <members>OpportunityLineItem.Description</members>
+    <members>OpportunityLineItem.Discount</members>
+    <members>OpportunityLineItem.ListPrice</members>
+    <members>OpportunityLineItem.OpportunityId</members>
+    <members>OpportunityLineItem.Product2Id</members>
+    <members>OpportunityLineItem.ProductCode</members>
+    <members>OpportunityLineItem.Quantity</members>
+    <members>OpportunityLineItem.ServiceDate</members>
+    <members>OpportunityLineItem.Subtotal</members>
+    <members>OpportunityLineItem.TotalPrice</members>
+    <members>OpportunityLineItem.UnitPrice</members>
+    <members>Pricebook2.Description</members>
+    <members>Pricebook2.IsActive</members>
+    <members>Pricebook2.IsStandard</members>
+    <members>Pricebook2.Name</members>
+    <members>PricebookEntry.IsActive</members>
+    <members>PricebookEntry.Pricebook2Id</members>
+    <members>PricebookEntry.Product2Id</members>
+    <members>PricebookEntry.ProductCode</members>
+    <members>PricebookEntry.StandardPrice</members>
+    <members>PricebookEntry.UnitPrice</members>
+    <members>PricebookEntry.UseStandardPrice</members>
+    <members>Product2.Description</members>
+    <members>Product2.DisplayUrl</members>
+    <members>Product2.ExternalDataSourceId</members>
+    <members>Product2.ExternalId</members>
+    <members>Product2.Family</members>
+    <members>Product2.IsActive</members>
+    <members>Product2.Name</members>
+    <members>Product2.ProductCode</members>
+    <members>Product2.QuantityUnitOfMeasure</members>
+    <members>Product2.StockKeepingUnit</members>
+    <members>Task.ActivityDate</members>
+    <members>Task.CallDisposition</members>
+    <members>Task.CallDurationInSeconds</members>
+    <members>Task.CallObject</members>
+    <members>Task.CallType</members>
+    <members>Task.Description</members>
+    <members>Task.Email</members>
+    <members>Task.IsRecurrence</members>
+    <members>Task.IsReminderSet</members>
+    <members>Task.OwnerId</members>
+    <members>Task.Phone</members>
+    <members>Task.Priority</members>
+    <members>Task.RecurrenceInterval</members>
+    <members>Task.RecurrenceRegeneratedType</members>
+    <members>Task.Status</members>
+    <members>Task.Subject</members>
+    <members>Task.TaskSubtype</members>
+    <members>Task.Type</members>
+    <members>Task.WhatId</members>
+    <members>Task.WhoId</members>
+    <members>User.ManagerId</members>
   </types>
   <types>
     <name>ListView</name>
@@ -127,12 +344,42 @@
     <members>Activity.TodaysTasks</members>
     <members>Activity.UpcomingEvents</members>
     <members>Asset.AllAssets</members>
+    <members>Campaign.AllActiveCampaigns</members>
+    <members>Campaign.MyActiveCampaigns</members>
+    <members>Case.AllOpenCases</members>
+    <members>Case.MyCases</members>
+    <members>Case.MyOpenCases</members>
     <members>Contact.AllContacts</members>
     <members>Contact.BirthdaysThisMonth</members>
     <members>Contact.NewThisWeek</members>
+    <members>Contract.AllActivatedContracts</members>
+    <members>Contract.AllContracts</members>
+    <members>Contract.AllDraftContracts</members>
+    <members>Contract.AllInApprovalContracts</members>
+    <members>Contract.MyActivatedContracts</members>
+    <members>Contract.MyDraftContracts</members>
+    <members>Contract.MyInApprovalContracts</members>
     <members>Lead.AllOpenLeads</members>
     <members>Lead.MyUnreadLeads</members>
     <members>Lead.TodaysLeads</members>
+    <members>Opportunity.AllOpportunities</members>
+    <members>Opportunity.ClosingNextMonth</members>
+    <members>Opportunity.ClosingThisMonth</members>
+    <members>Opportunity.Default_Opportunity_Pipeline</members>
+    <members>Opportunity.MyOpportunities</members>
+    <members>Opportunity.NewThisWeek</members>
+    <members>Opportunity.Won</members>
+    <members>Product2.AllProducts</members>
+    <members>Task.CompletedTasks</members>
+    <members>Task.DelegatedTasks</members>
+    <members>Task.OpenTasks</members>
+    <members>Task.OverdueTasks</members>
+    <members>Task.RecurringTasks</members>
+    <members>Task.TodaysTasks</members>
+    <members>Task.UnscheduledTasks</members>
+    <members>User.ActiveUsers</members>
+    <members>User.AdminUsers</members>
+    <members>User.AllUsers</members>
   </types>
   <types>
     <name>WebLink</name>
@@ -142,6 +389,8 @@
     <members>Account.GoogleSearch</members>
     <members>Account.HooversProfile</members>
     <members>Account.YahooMaps</members>
+    <members>Campaign.ViewAllCampaignMembers</members>
+    <members>Campaign.ViewCampaignInfluenceReport</members>
     <members>Contact.GoogleMaps</members>
     <members>Contact.GoogleSearch</members>
     <members>Contact.SendGmail</members>
