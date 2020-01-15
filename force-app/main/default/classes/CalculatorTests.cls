@@ -4,7 +4,7 @@
  * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
  * @Group              : 
  * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
- * @Last Modified On   : 15/01/2020, 15:42:52
+ * @Last Modified On   : 15/01/2020, 15:50:10
  * @Modification Log   : 
  * Ver       Date            Author      		    Modification
  * 1.0    15/01/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
@@ -13,11 +13,19 @@
 private class CalculatorTests {
   @isTest
   private static void testAddition() {
-    Calculator.addition(1, 0);
+    Test.startTest();
+    Integer result = Calculator.addition(1, 0);
+    Test.stopTest();
+    System.assertEquals(1, result, msg, 'calc error');
+    
   }
   @isTest
   private static void testSubtraction() {
-    Calculator.subtraction(1, 0);
+    Test.startTest();
+    Integer result = Calculator.subtraction(1, 0);
+    Test.stopTest();
+    System.assertEquals(0, result, msg, 'calc error');
+
   }
 
   @isTest
@@ -90,7 +98,7 @@ private class CalculatorTests {
     try {
       Calculator.divide(-1, 2);
     } catch (Calculator.CalculatorException e) {
-      System.assertEquals('negative value(s) not allowed.', e.getMessage());
+      System.assertEquals('negative value(s) not allowed.', e.getMessage(), 'calc error');
       caught = true;
     }
     System.assert(caught, 'threw expected exception');
