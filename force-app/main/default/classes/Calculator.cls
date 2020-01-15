@@ -14,7 +14,7 @@ public with sharing class Calculator {
   }
 
   /**
-  * @description 
+  * @description addition
   * @author ChangeMeIn@UserSettingsUnder.SFDoc | 15/01/2020 
   * @param a 
   * @param b 
@@ -24,6 +24,13 @@ public with sharing class Calculator {
     return a + b;
   }
 
+   /**
+  * @description subtraction
+  * @author ChangeMeIn@UserSettingsUnder.SFDoc | 15/01/2020 
+  * @param a 
+  * @param b 
+  * @return Integer 
+  **/  
   public static Integer subtraction(Integer a, Integer b) {
     return a - b;
   }
