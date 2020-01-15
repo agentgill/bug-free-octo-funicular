@@ -1,3 +1,14 @@
+/**
+ * @File Name          : MyClass.cls
+ * @Description        : 
+ * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @Group              : 
+ * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @Last Modified On   : 15/01/2020, 15:42:59
+ * @Modification Log   : 
+ * Ver       Date            Author      		    Modification
+ * 1.0    15/01/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+**/
 public class MyClass {
   public class CalculatorException extends Exception {
   }

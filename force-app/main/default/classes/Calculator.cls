@@ -1,7 +1,25 @@
+/**
+ * @File Name          : Calculator.cls
+ * @Description        : 
+ * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @Group              : 
+ * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @Last Modified On   : 15/01/2020, 15:42:36
+ * @Modification Log   : 
+ * Ver       Date            Author      		    Modification
+ * 1.0    15/01/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+**/
 public with sharing class Calculator {
   public class CalculatorException extends Exception {
   }
 
+  /**
+  * @description 
+  * @author ChangeMeIn@UserSettingsUnder.SFDoc | 15/01/2020 
+  * @param a 
+  * @param b 
+  * @return Integer 
+  **/
   public static Integer addition(Integer a, Integer b) {
     return a + b;
   }
