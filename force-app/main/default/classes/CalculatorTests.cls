@@ -4,7 +4,7 @@
  * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
  * @Group              : 
  * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
- * @Last Modified On   : 15/01/2020, 15:50:10
+ * @Last Modified On   : 15/01/2020, 16:11:50
  * @Modification Log   : 
  * Ver       Date            Author      		    Modification
  * 1.0    15/01/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
@@ -16,7 +16,7 @@ private class CalculatorTests {
     Test.startTest();
     Integer result = Calculator.addition(1, 0);
     Test.stopTest();
-    System.assertEquals(1, result, msg, 'calc error');
+    System.assertEquals(1, result, 'calc error');
     
   }
   @isTest
@@ -24,7 +24,7 @@ private class CalculatorTests {
     Test.startTest();
     Integer result = Calculator.subtraction(1, 0);
     Test.stopTest();
-    System.assertEquals(0, result, msg, 'calc error');
+    System.assertEquals(1, result, 'calc error');
 
   }
 
