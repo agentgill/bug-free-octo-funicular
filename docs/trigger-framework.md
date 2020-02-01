@@ -1,3 +1,17 @@
+# Trigger Framework
+
+Create package
+```zsh
+sfdx force:package:create -n TriggerFramework -d "SFDC Trigger Framework" -t Unlocked -r packages/sfdc-trigger-framework -e -v devops
+```
+
+Create package version
+```zsh
+sfdx force:package:version:create -p TriggerFramework -x -w 10 -v devops 
+```
+
+sfdx-project.json for package
+```json
 {
     "packageDirectories": [
         {
@@ -20,3 +34,4 @@
         "TriggerFramework@0.1.0-1": "04t6g0000068dQrAAI"
     }
 }
+```
