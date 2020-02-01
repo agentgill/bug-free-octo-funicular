@@ -21,8 +21,8 @@ sfdx-project.json for package
         {
             "path": "packages/sfdc-trigger-framework",
             "package": "TriggerFramework",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT",
             "default": false
         }
     ],
@@ -31,7 +31,20 @@ sfdx-project.json for package
     "sourceApiVersion": "47.0",
     "packageAliases": {
         "TriggerFramework": "0Ho6g0000004CTVCA2",
-        "TriggerFramework@0.1.0-1": "04t6g0000068dQrAAI"
+        "TriggerFramework@0.1.0-1": "04t6g0000068dQrAAI",
+        "TriggerFramework@1.0.0-1": "04t6g0000068dhSAAQ"
     }
 }
+```
+
+List package versions
+
+```zsh
+sfdx force:package:version:list -v devops
+```
+
+Install Package
+
+```zsh
+sfdx force:package:install -p 04t6g0000068dhSAAQ -w 10  
 ```
