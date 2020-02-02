@@ -1,8 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "packages/sfdc-test-factory",
       "default": true
+    },
+    {
+      "path": "force-app",
+      "default": false
     },
     {
       "path": "packages/sfdc-trigger-framework",

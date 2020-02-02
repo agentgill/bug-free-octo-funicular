@@ -1,13 +1,13 @@
 /**
- * @File Name          : TriggerHandler.cls
+ * @File Name          : TriggerHandler.cls!
  * @Description        : 
  * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
  * @Group              : 
- * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
- * @Last Modified On   : 16/01/2020, 22:50:25
+ * @Last Modified By   : agentgill
+ * @Last Modified On   : 02/02/2020, 08:56:00
  * @Modification Log   : 
  * Ver       Date            Author      		    Modification
- * 1.0    16/01/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+ * 1.0    16/01/2020   agentgill     Initial Version
 **/
 public virtual class TriggerHandler {
 
