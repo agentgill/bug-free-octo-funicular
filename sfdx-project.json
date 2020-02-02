@@ -1,12 +1,15 @@
 {
   "packageDirectories": [
     {
-      "path": "packages/sfdc-test-factory",
+      "path": "force-app",
       "default": true
     },
     {
-      "path": "force-app",
-      "default": false
+      "path": "packages/sfdc-test-factory",
+      "default": false,
+      "package": "TestFactory",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.2.0.NEXT"
     },
     {
       "path": "packages/sfdc-trigger-framework",
@@ -22,6 +25,9 @@
   "packageAliases": {
     "TriggerFramework": "0Ho6g0000004CTVCA2",
     "TriggerFramework@0.1.0-1": "04t6g0000068dQrAAI",
-    "TriggerFramework@1.0.0-1": "04t6g0000068dhSAAQ"
+    "TriggerFramework@1.0.0-1": "04t6g0000068dhSAAQ",
+    "TestFactory": "0Ho6g0000004CTaCAM",
+    "TestFactory@0.1.0-1": "04t6g0000068hZ1AAI",
+    "TestFactory@1.2.0-1": "04t6g0000068hZ6AAI"
   }
 }

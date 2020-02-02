@@ -9,7 +9,7 @@ sfdx force:package:create -n TriggerFramework -d "SFDC Trigger Framework" -t Unl
 Create package version
 
 ```zsh
-sfdx force:package:version:create -p TriggerFramework -x -w 10 -v devops 
+sfdx force:package:version:create -p TriggerFramework -x -w 10 -v devops
 ```
 
 sfdx-project.json for package
