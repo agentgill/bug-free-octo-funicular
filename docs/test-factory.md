@@ -1,3 +1,20 @@
+# Salesforce Test Factory Unlocked Package
+
+Create Package
+
+```zsh
+sfdx force:package:create -n TestFactory -d "SFDC Test Factory" -t Unlocked -r packages/sfdc-test-factory -e -v devops
+```
+
+Create Package Version
+
+```zsh
+sfdx force:package:version:create -p TestFactory -x -w 10 -v devops
+```
+
+sfdx-project.json for package
+
+```json
 {
   "packageDirectories": [
     {
@@ -31,3 +48,17 @@
     "TestFactory@1.2.0-1": "04t6g0000068hZ6AAI"
   }
 }
+
+```
+
+List package versions
+
+```zsh
+sfdx force:package:version:list -v devops
+```
+
+Install Package
+
+```zsh
+sfdx force:package:install -p 04t6g0000068hZ6AAI -w 10  
+```
